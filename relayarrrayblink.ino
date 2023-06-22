@@ -18,7 +18,7 @@
 
 #define BLYNK_TEMPLATE_ID "TMPL6GxqT0ZyX"
 
-char auth[] = "gvQ9CKvWVZ9-bbDjdrW4OR-QsGeoA_Hy";
+char auth[] = "";
 
 const int numPIRs = 3;  // number of PIR sensors
 const int pirPins[numPIRs] = {pinPIR_A, pinPIR_B, pinPIR_C};
@@ -33,8 +33,6 @@ unsigned long offDelay = 1 * 60 * 1000;
 //char ssid[] = "Polinema Hotspot LT8 Barat";
 //char pass[] = "";
 
-char ssid[] = "Yusuf";
-char pass[] = "jalanteluketna278d";
 
 int switchBlynk1 = 0;
 int switchBlynk2 = 0;
